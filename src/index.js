@@ -6,7 +6,7 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import "tachyons";
 import App from "./Container/App";
-import { robots } from "./robots";
+
 // import 進來的要大寫才能讀到名稱
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

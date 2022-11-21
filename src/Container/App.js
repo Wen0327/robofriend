@@ -41,7 +41,6 @@ class App extends Component {
                 <h1 className="cyberh1 f1">RoboFriends</h1>
                 {/* B/ A */}
                 <SearchBox search_Change={this.search_Change} />
-                <h1 className="bt2"></h1>
                 <Scroll>
                 <CardList robots={filterRobot} />
                 </Scroll>
