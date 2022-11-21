@@ -1,10 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+// import Card from "./Card";
+// import CardList from "./Component/CardList";
+import reportWebVitals from "./reportWebVitals";
+import "tachyons";
+import App from "./Container/App";
+import { robots } from "./robots";
+// import 進來的要大寫才能讀到名稱
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />

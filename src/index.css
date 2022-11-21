@@ -5,9 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to left, rgba(7,27,82,1) 0%, rgba(0,128,128,1) 100%);
+}
+
+.cyberh1 {
+  font-family: Cyber, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+
+  /*  */
+
+  color: #f7f500;
+  text-align: center;
+  font-size: 42px;
+  text-shadow: rgb(0, 208, 255) 2px 3px 0px;
+  line-height: 1.5;
+  padding: 5px 0px;
+ letter-spacing: 5px;
+}
+
+.cyber_search{
+  font-family: Cyber, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  letter-spacing: 2px;
+  width: 20%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face{
+  font-family: 'Cyber'; 
+  src: url("./Container/CyberwayRiders-lg97d.ttf"); 
 }
